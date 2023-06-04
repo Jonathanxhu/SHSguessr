@@ -14,8 +14,8 @@ function getRandLocation(){
     distance = null;
     document.getElementById("distance").textContent = distance;
     document.getElementById("second").innerHTML = "";
-    document.getElementById("result").innerHTML = '<img src="'+currentLocation.src+'" height="403" width="302">';
-    document.getElementById("guessbutton").innerHTML = '<input type="button" onclick="guess()" value="Guess!">';    
+    document.getElementById("guessbutton").innerHTML = '<input type="button" onclick="guess()" value="Guess!">';
+    return document.getElementById("result").innerHTML = '<img src="'+currentLocation.src+'" height="403" width="302">';
 }
 let container = document.getElementById("container");
 
