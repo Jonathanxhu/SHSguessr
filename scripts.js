@@ -4,9 +4,9 @@ var x = 0;
 var y = 0;
 var distance;
 var locations = [
-    {src: 'https://drive.google.com/uc?export=view&id=1ZCHYpEnYeAnlQd39PQ3p2r2iF3cqWwPD', coordinates: {x: 694, y: 166}},
-    {src: 'https://drive.google.com/uc?export=view&id=1jo1AW3jObbAywe5-mSj73idD51qbYvjh', coordinates: {x: 685, y: 472}},
-    {src: 'https://drive.google.com/uc?export=view&id=1e4dp4YWwhg31mzvmeJ1eglM6Uzk_ly6L', coordinates: {x: 954, y: 341}},
+    {src: 'https://github.com/Jonathanxhu/SHSguessr/blob/main/images/IMG_1304.jpg?raw=true', coordinates: {x: 694, y: 166}},
+    {src: 'https://github.com/Jonathanxhu/SHSguessr/blob/main/images/IMG_1332.jpg?raw=true', coordinates: {x: 685, y: 472}},
+    {src: 'https://github.com/Jonathanxhu/SHSguessr/blob/main/images/IMG_1358.jpg?raw=true', coordinates: {x: 954, y: 341}},
 ];
 function getRandLocation(){
     currentLocation = locations[Math.floor(Math.random() * locations.length)];
