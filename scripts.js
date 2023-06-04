@@ -44,10 +44,10 @@ container.addEventListener("click", function(event) {
 function guess(){
     var dx = x - currentLocation.coordinates.x;
     var dy = y - currentLocation.coordinates.y;    
-    distance = Math.sqrt(dx*dx + dy*dy);
+    distance = Math.floor(Math.sqrt(dx*dx + dy*dy)*(167/553));
     document.getElementById("first").innerHTML = "Your guess is ";
     document.getElementById("distance").textContent = distance;
-    document.getElementById("second").innerHTML = " away";
+    document.getElementById("second").innerHTML = "m away";
     score += (100 - distance);
     score = Math.floor(score);
     let dot = document.getElementById("dot");
