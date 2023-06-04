@@ -36,6 +36,13 @@ html, body {
     right: 200px;*/
 }
 
+#about {
+    width: 100%;
+    text-align: left;
+    padding: 300px;
+    box-sizing: border-box;
+}
+
 #container {
     position: relative;
     width: 1110px;
