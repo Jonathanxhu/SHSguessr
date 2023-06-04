@@ -14,14 +14,31 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/IMG_1360.jpeg', coordinates: {x: 937, y: 291}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/IMG_1323.jpeg', coordinates: {x: 481, y: 363}},
 ];
+var indexes = [];
+var i = 0;
+while(i < locations.length){
+    indexes.push(i);
+    i += 1;
+}
 function getRandLocation(){
-    currentLocation = locations[Math.floor(Math.random() * locations.length)];
+    if(indexes.length == 0){
+        end();
+        return document.getElementById("first").innerHTML = "You finished all current locations!";
+    }
+    var randnum = Math.floor(Math.random() * indexes.length);
+    currentLocation = locations[indexes[randnum]];
+    indexes.splice(randnum, 1)
     document.getElementById("first").innerHTML = "";
     distance = null;
     document.getElementById("distance").textContent = distance;
     document.getElementById("second").innerHTML = "";
-    document.getElementById("guessbutton").innerHTML = '<input type="button" onclick="guess()" value="Guess!">';
-    return document.getElementById("result").innerHTML = '<img src="'+currentLocation.src+'" height="403" width="302">';
+    document.getElementById("result").innerHTML = '<img src="'+currentLocation.src+'" height="403" width="302">';
+    return document.getElementById("guessbutton").innerHTML = '<input type="button" onclick="guess()" value="Guess!">';    
+}
+function end(){
+    document.getElementById("first").innerHTML = " ";
+    document.getElementById("distance").textContent = null;
+    document.getElementById("second").innerHTML = "";
 }
 let container = document.getElementById("container");
 
