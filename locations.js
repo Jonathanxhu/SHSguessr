@@ -18,5 +18,16 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG739.jpeg', coordinates: {x: 599, y: 243}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG740.jpeg', coordinates: {x: 634, y: 237}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG741.jpeg', coordinates: {x: 705, y: 248}},
-
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG744.jpeg', coordinates: {x: 897, y: 446}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG746.jpeg', coordinates: {x: 864, y: 467}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG748.jpeg', coordinates: {x: 817, y: 445}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG751.jpeg', coordinates: {x: 790, y: 465}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG752.jpeg', coordinates: {x: 687, y: 410}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG754.jpeg', coordinates: {x: 618, y: 377}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG756.jpeg', coordinates: {x: 548, y: 323}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2067.jpeg', coordinates: {x: 446, y: 189}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2068.jpeg', coordinates: {x: 829, y: 262}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2071.jpeg', coordinates: {x: 725, y: 332}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2072.jpeg', coordinates: {x: 462, y: 212}},
+    
 ];
