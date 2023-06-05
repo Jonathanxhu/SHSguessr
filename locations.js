@@ -8,4 +8,7 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/IMG_1357.jpeg', coordinates: {x: 959, y: 364}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/IMG_1360.jpeg', coordinates: {x: 937, y: 291}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/IMG_1323.jpeg', coordinates: {x: 481, y: 363}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG730.jpeg', coordinates: {x: 600, y: 320}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG732.jpeg', coordinates: {x: 628, y: 294}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG734.jpeg', coordinates: {x: 963, y: 280}},
 ];
