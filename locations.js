@@ -11,4 +11,5 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG730.jpeg', coordinates: {x: 600, y: 320}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG732.jpeg', coordinates: {x: 628, y: 294}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG734.jpeg', coordinates: {x: 963, y: 280}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2061.jpeg', coordinates: {x: 449, y: 374}},
 ];
