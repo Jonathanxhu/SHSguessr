@@ -12,4 +12,11 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG732.jpeg', coordinates: {x: 628, y: 294}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG734.jpeg', coordinates: {x: 963, y: 280}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2061.jpeg', coordinates: {x: 449, y: 374}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG736.jpeg', coordinates: {x: 884, y: 304}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG737.jpeg', coordinates: {x: 834, y: 304}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG738.jpeg', coordinates: {x: 821, y: 273}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG739.jpeg', coordinates: {x: 599, y: 243}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG740.jpeg', coordinates: {x: 634, y: 237}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG741.jpeg', coordinates: {x: 705, y: 248}},
+
 ];
