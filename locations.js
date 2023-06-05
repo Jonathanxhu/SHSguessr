@@ -18,6 +18,7 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG739.jpeg', coordinates: {x: 599, y: 243}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG740.jpeg', coordinates: {x: 634, y: 237}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG741.jpeg', coordinates: {x: 705, y: 248}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG742.jpeg', coordinates: {x: 882, y: 370}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG744.jpeg', coordinates: {x: 897, y: 446}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG746.jpeg', coordinates: {x: 864, y: 467}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG748.jpeg', coordinates: {x: 817, y: 445}},
