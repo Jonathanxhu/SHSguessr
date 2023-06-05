@@ -45,10 +45,11 @@ function guess(){
     var dx = x - currentLocation.coordinates.x;
     var dy = y - currentLocation.coordinates.y;    
     distance = Math.floor(Math.sqrt(dx*dx + dy*dy)*(385/553));
+    var rawdis = Math.sqrt(dx*dx + dy*dy)*(370/553);
     document.getElementById("first").innerHTML = "Your guess is ";
     document.getElementById("distance").textContent = distance;
     document.getElementById("second").innerHTML = "m away";
-    score += (100 - distance);
+    score += (1000*Math.pow(0.99, rawdis) - 0.3*rawdis);
     score = Math.floor(score);
     let dot = document.getElementById("dot");
     var dotx = currentLocation.coordinates.x - 5;
