@@ -30,5 +30,14 @@ var locations = [
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2068.jpeg', coordinates: {x: 829, y: 262}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2071.jpeg', coordinates: {x: 725, y: 332}},
     {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/WechatIMG2072.jpeg', coordinates: {x: 462, y: 212}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image01.jpg', coordinates: {x: 904.5, y: 288}},
+    // {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image02.jpg', coordinates: {x: 931, y: 246}},  // Indoors
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image03.jpg', coordinates: {x: 877, y: 281}},
+    // {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image04.jpg', coordinates: {x: 935, y: 274}},  // Indoors
+    // {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image05.jpg', coordinates: {x: 934, y: 265}},  // Indoors
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image06.jpg', coordinates: {x: 145, y: 277.125}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image07.jpg', coordinates: {x: 990, y: 280.125}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image08.jpg', coordinates: {x: 1031, y: 319.125}},
+    {src: 'https://raw.githubusercontent.com/Jonathanxhu/SHSguessr/main/images/Image09.jpg', coordinates: {x: 967, y: 283.125}},
     
 ];
